@@ -1,1 +1,1 @@
-web: python manage.py migrate && gunicorn Django.wsgi
+web: python manage.py migrate && gunicorn Django-bot.wsgi
